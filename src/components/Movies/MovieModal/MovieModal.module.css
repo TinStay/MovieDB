@@ -1,0 +1,59 @@
+.Modal{
+    position: relative;
+    border-radius: 10px;
+    background-color: #eaebfd;
+    color: white;
+    padding: 15px 20px;
+}
+
+
+
+.MovieTitle{
+    color: rgb(93, 25, 68);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.MoviePropsTitle{
+    color: rgb(93, 25, 68);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.MovieOverview{
+    color: rgb(133, 44, 100);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.Img{
+    width: 200px;
+    border: 1px solid #6F1E51;
+   
+}
+
+.ModalCloseBtn{
+    position: relative;
+    /* bottom: 0; */
+    float: left;
+    font-size: 1.3rem;
+    margin: 15px 0;
+    background-color: #354e8f;
+    border: 1px solid #192a56;
+}
+
+.ModalCloseBtn:hover{
+    background-color: #4765b1;
+    border: 1px solid #233a74;
+}
+
+@media(min-width:580px){
+    .Img{
+        width: 250px;
+    }
+}
+@media(min-width:990px){
+    .Img{
+        width: 350px;
+    }
+}
+

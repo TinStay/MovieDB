@@ -1,0 +1,74 @@
+
+.Movie{
+    width: 300px;
+    /* cursor: pointer; */
+    
+}
+
+.MovieInfo{
+    position: absolute;
+    top: 15%;
+    left: 20px;
+    align-self: center;
+    width: 90%;
+    margin: 20px auto;
+    visibility: hidden;
+    background: #3a6186ed;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #89253eed, #3a6186ed);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #89253eed, #3a6186ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    margin: 10px;
+    border-bottom: 1px solid #778beb;
+    border-top: 1px solid #778beb;
+    color: white;
+    padding: 25px;
+    
+}
+.Movie:hover .MovieInfo{
+    visibility: visible;
+
+}
+.Movie:hover .CardImg{
+    filter: blur(2px);
+}
+.Movie:hover .MovieTitle{
+    visibility: hidden;
+    transform: translateY(-100%);
+}
+
+.MovieTitle{ 
+    position: relative;
+    visibility: visible;
+    color: #ecf0f1;
+    font-weight: bold;
+    z-index: 5;
+    transition: 0.1s ease-in;
+}
+
+
+
+.CardImg{
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: relative;
+    left: 0;
+    transition: 0.2s ease-in;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.OverviewBtn{
+    display: block;
+    font-weight: bold;
+    color: #2c2c54;
+    width: 100%;
+    margin-top: 45px;
+    background-color:  #ffb142;
+    border: 1px solid #cc8e35;
+}
+.OverviewBtn:hover{
+    background-color: #cc8e35;
+    color: white;
+    border: 1px solid #cc8e35;
+}

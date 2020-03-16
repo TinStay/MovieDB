@@ -1,0 +1,80 @@
+.Navbar{
+    background-color: #2c2c54;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+    border-bottom: 1px solid #ffb142;
+}
+
+.NavbarToggle{
+    background-color: #ffb142;
+    margin: 10px 0;
+}
+
+.NavbarToggle:hover{
+    background-color: #cc8e35;
+}
+
+.NavbarCollapse{
+    
+    justify-content: center;
+    position: relative;
+    
+}
+.NavItems{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.NavItem{
+    margin: 13px 35px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+
+
+.NavItem:hover{
+    color: #ffb142;
+    text-decoration: none;
+}
+
+.Nav:hover{
+    color: white;
+}
+
+.SubscribeBtn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-weight: bold;
+    color: #2c2c54;
+    background-color:  #ffb142;
+    border: 1px solid #cc8e35;
+}
+
+.SubscribeBtn:hover{
+    background-color: #cc8e35;
+    color: white;
+    border: 1px solid #cc8e35;
+}
+
+.SubscribeBtnModal{
+    right: 20px;
+    top: 15px;
+    font-weight: bold;
+    color: #2c2c54;
+    background-color:  #ffb142;
+    border: 1px solid #cc8e35;
+}
+
+.SubscribeBtnModal:hover{
+    background-color: #cc8e35;
+    color: white;
+    border: 1px solid #cc8e35;
+}

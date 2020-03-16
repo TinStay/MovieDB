@@ -1,0 +1,65 @@
+.Jumbotron{
+    background-color: #2c2c54;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    border-radius: 15px;
+    color: white;
+    transform: rotate(-1deg);
+    border-bottom: 2px solid #ffb142;
+    transition: 0.5s ease-in;
+}
+.TiltBack{
+    transform: rotate(1deg);
+    margin-bottom: 15px;
+}
+
+.Form{
+    display: flex;
+    margin: 50px 20px 40px 20px;
+    
+}
+
+.SearchBtn{
+    margin-left: 5px;
+    font-weight: bold;
+    color: #2c2c54;
+    background-color:  #ffb142;
+    border: 1px solid #cc8e35;
+}
+
+.SearchBtn:hover{
+    background-color: #cc8e35;
+    color: white;
+    border: 1px solid #cc8e35;
+}
+
+.JumboText{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.Logo{
+    width: 200px;
+    margin: 20px 0;
+}
+
+@media(min-width: 500px){
+    .Logo{
+        width: 250px;
+    }
+}
+@media(min-width: 900px){
+    .Logo{
+        width: 300px;
+    }
+}
+@media(min-width: 1200px){
+    .Logo{
+        width: 350px;
+    }
+}

@@ -2,7 +2,7 @@
 
 ### Description
 
-A React app which lists movies in four different categories - popular, upcoming, top rated and now playing. Users can read overviews, find more information like movie's genres and avarage vote and subscribe to a monthly newsletter with email. The data about the movies is from the Movie Database API and I used axios for the requests. React Bootstrap and Bootstrap are the main libraries for the design and React Router was used for navigation throughout the site. 
+A React app which lists movies in four different categories - popular, upcoming, top rated and now playing. Users can read overviews, find more information like movie's genres and avarage vote and subscribe to a monthly newsletter with email. Requests for the Movie Database API were performed with the axios library. Both Bootstrap and React Bootstrap were used for component design.
 
 ### Deployment
 

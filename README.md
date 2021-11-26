@@ -6,7 +6,7 @@ A React app which lists movies in four different categories - popular, upcoming,
 
 ### Deployment
 
-The website has not been deployed to the internet yet and it is still in development stage.
+The application is not deployed to the internet.
 
 ### Built With
 
